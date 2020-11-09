@@ -8,7 +8,7 @@ process = subprocess.run(
         universal_newlines=True)
 output = process.stdout
 output = output.replace(' ', '').split('\n')
-print(output[2].split(':')[2])
+print(output[1].split(':')[1])
 
 #with open('out_1.txt', 'r') as read, open('info.csv', 'w') as out:
 #    write = csv.writer(out)
