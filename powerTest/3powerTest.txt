@@ -1,0 +1,6 @@
+Begin: 15:05:12
+RIGHTS: 440
+WRONGS: 60
+ACC: 0.88
+End: 15:06:24
+Time Elapsed: 71.70383286476135s
