@@ -12,7 +12,7 @@ with open(output_file + '.csv', 'w') as file_out:
     write.writerow(first_row)
     end = time.time() + float(duration)
     while end > time.time():
-        command = ['ipmitool', 'dcmi', 'power', 'reading']
+        command = ['sudo', 'ipmitool', 'dcmi', 'power', 'reading']
         process = subprocess.run(
                 command,
                 stdout=subprocess.PIPE,
