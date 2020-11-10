@@ -4,9 +4,9 @@ import time
 import csv
 
 duration = sys.argv[1]
-output_file = sys.argv[2]
+file_name = sys.argv[2]
 
-with open(output_file + '.csv', 'w') as file_out:
+with open(file_name + '.csv', 'w') as file_out:
     write = csv.writer(file_out)
     first_row = ['Instantaneous_power_reading(W)','Minimum_during_sampling_period(W)','Maximum_during_sampling_period(W)','Average_power_reading_over_sample_period(W)','Day_of_Week','Month','Day','Time','Year']
     write.writerow(first_row)
@@ -34,12 +34,21 @@ with open(output_file + '.csv', 'w') as file_out:
         current_row.append(output[5].split(':')[1][:3])
         # Month
         current_row.append(output[5].split(':')[1][3:6])
-        # Day
-        current_row.append(output[5].split(':')[1][6])
-        # Time
-        current_row.append(output[5][21:29])
-        # Year
-        current_row.append(output[5][29:])
+        # Days values higher than 9
+        if (len(output[5].split(':')[1]) == 10):
+            # Day
+            current_row.append(output[5].split(':')[1][6:8])
+            # Time
+            current_row.append(output[5][22:30])
+            # Year
+            current_row.append(output[5][30:])
+        else:
+            # Day
+            current_row.append(output[5].split(':')[1][6])
+            # Time
+            current_row.append(output[5][21:29])
+            # Year
+            current_row.append(output[5][29:])
         # Sampling_period
         current_row.append(output[6].split(':')[1].replace('Seconds.', ''))
         # Power_reading_state_is
