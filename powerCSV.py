@@ -3,11 +3,14 @@ import subprocess
 import time
 import csv
 
-with open(sys.argv[1] + '.csv', 'w') as file_out:
+duration = sys.argv[1]
+output_file = sys.argv[2]
+
+with open(output_file + '.csv', 'w') as file_out:
     write = csv.writer(file_out)
     first_row = ['Instantaneous_power_reading(W)','Minimum_during_sampling_period(W)','Maximum_during_sampling_period(W)','Average_power_reading_over_sample_period(W)','Day_of_Week','Month','Day','Time','Year']
     write.writerow(first_row)
-    end = time.time() + float(sys.argv[1])
+    end = time.time() + float(duration)
     while end > time.time():
         command = ['ipmitool', 'dcmi', 'power', 'reading']
         process = subprocess.run(
