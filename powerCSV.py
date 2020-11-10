@@ -3,7 +3,7 @@ import subprocess
 import time
 import csv
 
-with open('ipmiStats.csv', 'w') as file_out:
+with open(sys.argv[1] + '.csv', 'w') as file_out:
     write = csv.writer(file_out)
     first_row = ['Instantaneous_power_reading(W)','Minimum_during_sampling_period(W)','Maximum_during_sampling_period(W)','Average_power_reading_over_sample_period(W)','Day_of_Week','Month','Day','Time','Year']
     write.writerow(first_row)
