@@ -5,10 +5,11 @@ import csv
 
 duration = sys.argv[1]
 file_name = sys.argv[2]
+time_elapsed = 0
 
 with open(file_name + '.csv', 'w') as file_out:
     write = csv.writer(file_out)
-    first_row = ['Instantaneous_power_reading(W)','Minimum_during_sampling_period(W)','Maximum_during_sampling_period(W)','Average_power_reading_over_sample_period(W)','Day_of_Week','Month','Day','Time','Year']
+    first_row = ['Instantaneous_power_reading(W)', 'Minimum_during_sampling_period(W)', 'Maximum_during_sampling_period(W)', 'Average_power_reading_over_sample_period(W)', 'Day_of_Week', 'Month', 'Day',  'Time', 'Year', 'Sampling_period','Power_reading_state_is','Time_elapsed']
     write.writerow(first_row)
     end = time.time() + float(duration)
     while end > time.time():
@@ -53,4 +54,7 @@ with open(file_name + '.csv', 'w') as file_out:
         current_row.append(output[6].split(':')[1].replace('Seconds.', ''))
         # Power_reading_state_is
         current_row.append(output[7].split(':')[1])
+        # Time_elapsed
+        time_elapsed += int(output[6].split(':')[1].replace('Seconds.', ''))
+        current_row.append(str(time_elapsed).zfill(8))
         write.writerow(current_row)
