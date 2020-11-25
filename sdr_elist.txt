@@ -1,0 +1,170 @@
+CPU1 Temp        | 0Bh | ok  | 65.1 | 32 degrees C
+CPU2 Temp        | 0Dh | ok  | 65.2 | 25 degrees C
+System Temp      | 01h | ok  | 64.1 | 21 degrees C
+Peripheral Temp  | 02h | ok  | 66.1 | 30 degrees C
+MB_10G Temp      | E0h | ok  | 11.0 | 43 degrees C
+P1-DIMMA1 Temp   | 20h | ok  | 32.0 | 27 degrees C
+P1-DIMMA2 Temp   | 21h | ns  | 32.1 | No Reading
+P1-DIMMB1 Temp   | 22h | ok  | 32.2 | 26 degrees C
+P1-DIMMB2 Temp   | 23h | ns  | 32.3 | No Reading
+P1-DIMMC1 Temp   | 24h | ok  | 32.4 | 27 degrees C
+P1-DIMMC2 Temp   | 25h | ns  | 32.5 | No Reading
+P1-DIMMD1 Temp   | 26h | ok  | 32.6 | 27 degrees C
+P1-DIMMD2 Temp   | 27h | ns  | 32.7 | No Reading
+P2-DIMMA1 Temp   | 28h | ok  | 32.8 | 24 degrees C
+P2-DIMMA2 Temp   | 29h | ns  | 32.9 | No Reading
+P2-DIMMB1 Temp   | 2Ah | ok  | 32.10 | 24 degrees C
+P2-DIMMB2 Temp   | 2Bh | ns  | 32.11 | No Reading
+P2-DIMMC1 Temp   | 2Ch | ok  | 32.12 | 25 degrees C
+P2-DIMMC2 Temp   | 2Dh | ns  | 32.13 | No Reading
+P2-DIMMD1 Temp   | 2Eh | ok  | 32.14 | 28 degrees C
+P2-DIMMD2 Temp   | 2Fh | ns  | 32.15 | No Reading
+CPU Core Temp 1  | B0h | ns  | 65.1 | No Reading
+CPU Core Temp 2  | B1h | ns  | 65.1 | No Reading
+CPU Core Temp 3  | B2h | ok  | 65.1 | 32 degrees C
+CPU Core Temp 4  | B3h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 5  | B4h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 6  | B5h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 7  | B6h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 8  | B7h | ok  | 65.1 | 32 degrees C
+CPU Core Temp 9  | B8h | ns  | 65.1 | No Reading
+CPU Core Temp 10 | B9h | ns  | 65.1 | No Reading
+CPU Core Temp 11 | BAh | ns  | 65.1 | No Reading
+CPU Core Temp 12 | BBh | ns  | 65.1 | No Reading
+CPU Core Temp 13 | BCh | ok  | 65.1 | 32 degrees C
+CPU Core Temp 14 | BDh | ok  | 65.1 | 32 degrees C
+CPU Core Temp 15 | BEh | ok  | 65.1 | 31 degrees C
+CPU Core Temp 16 | BFh | ok  | 65.1 | 31 degrees C
+CPU Core Temp 17 | C0h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 18 | C1h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 19 | C2h | ok  | 65.1 | 31 degrees C
+CPU Core Temp 20 | C3h | ok  | 65.1 | 32 degrees C
+CPU Core Temp 21 | C4h | ok  | 65.1 | 32 degrees C
+CPU Core Temp 22 | C5h | ok  | 65.1 | 32 degrees C
+CPU Core Temp 23 | C6h | ns  | 65.1 | No Reading
+CPU Core Temp 24 | C7h | ns  | 65.1 | No Reading
+CPU Core Temp 25 | 30h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 26 | 31h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 27 | 32h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 28 | 33h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 29 | 34h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 30 | 35h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 31 | 36h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 32 | 37h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 33 | 38h | ns  | 65.2 | No Reading
+CPU Core Temp 34 | 39h | ns  | 65.2 | No Reading
+CPU Core Temp 35 | 3Ah | ns  | 65.2 | No Reading
+CPU Core Temp 36 | 3Bh | ns  | 65.2 | No Reading
+CPU Core Temp 37 | 3Ch | ok  | 65.2 | 25 degrees C
+CPU Core Temp 38 | 3Dh | ok  | 65.2 | 25 degrees C
+CPU Core Temp 39 | 3Eh | ns  | 65.2 | No Reading
+CPU Core Temp 40 | 3Fh | ns  | 65.2 | No Reading
+CPU Core Temp 41 | 40h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 42 | 41h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 43 | 42h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 44 | 43h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 45 | 44h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 46 | 45h | ok  | 65.2 | 25 degrees C
+CPU Core Temp 47 | 46h | ns  | 65.2 | No Reading
+CPU Core Temp 48 | 47h | ns  | 65.2 | No Reading
+Freq Limit OT 1  | 68h | ok  | 210.2 | Performance Met
+Freq Limit Pwr 1 | 69h | ok  | 210.3 | Performance Met
+Mem Thrttl OT 1  | 6Ah | ok  | 210.4 | Performance Met
+Freq Limit OT 2  | 6Ch | ok  | 210.5 | Performance Met
+Freq Limit Pwr 2 | 6Dh | ok  | 210.6 | Performance Met
+Mem Thrttl OT 2  | 6Eh | ok  | 210.7 | Performance Met
+VBAT             | 9Ch | ok  |  7.2 | 3.17 Volts
+FAN2             | E4h | ok  | 29.2 | 4500 RPM
+FAN3             | E5h | ok  | 29.2 | 4400 RPM
+FAN6             | E8h | ok  | 29.5 | 7600 RPM
+FAN7             | E9h | ok  | 29.6 | 7400 RPM
+Total Power      | 4Dh | ok  | 215.0 | 231 Watts
+CPU1 Power       | 4Eh | ok  | 215.1 | 11 Watts
+CPU2 Power       | 4Fh | ok  | 215.2 | 21 Watts
+PCIE CPU1 Pwr    | 06h | ok  | 215.3 | 25 Watts
+PCIE CPU2 Pwr    | 07h | ok  | 215.4 | 25 Watts
+OCC Active 1     | 08h | ok  | 210.0 | Device Enabled
+OCC Active 2     | 09h | ok  | 210.1 | Device Enabled
+CPU Func 1       | 0Ch | ok  | 65.1 | Presence detected
+CPU Func 2       | 0Eh | ok  | 65.2 | Presence detected
+CPU Core Func 1  | C8h | ok  | 65.1 | 
+CPU Core Func 2  | C9h | ok  | 65.1 | 
+CPU Core Func 3  | CAh | ok  | 65.1 | Presence detected
+CPU Core Func 4  | CBh | ok  | 65.1 | Presence detected
+CPU Core Func 5  | CCh | ok  | 65.1 | Presence detected
+CPU Core Func 6  | CDh | ok  | 65.1 | Presence detected
+CPU Core Func 7  | CEh | ok  | 65.1 | Presence detected
+CPU Core Func 8  | CFh | ok  | 65.1 | Presence detected
+CPU Core Func 9  | D0h | ok  | 65.1 | 
+CPU Core Func 10 | D1h | ok  | 65.1 | 
+CPU Core Func 11 | D2h | ok  | 65.1 | 
+CPU Core Func 12 | D3h | ok  | 65.1 | 
+CPU Core Func 13 | D4h | ok  | 65.1 | Presence detected
+CPU Core Func 14 | D5h | ok  | 65.1 | Presence detected
+CPU Core Func 15 | D6h | ok  | 65.1 | Presence detected
+CPU Core Func 16 | D7h | ok  | 65.1 | Presence detected
+CPU Core Func 17 | D8h | ok  | 65.1 | Presence detected
+CPU Core Func 18 | D9h | ok  | 65.1 | Presence detected
+CPU Core Func 19 | DAh | ok  | 65.1 | Presence detected
+CPU Core Func 20 | DBh | ok  | 65.1 | Presence detected
+CPU Core Func 21 | DCh | ok  | 65.1 | Presence detected
+CPU Core Func 22 | DDh | ok  | 65.1 | Presence detected
+CPU Core Func 23 | DEh | ok  | 65.1 | 
+CPU Core Func 24 | DFh | ok  | 65.1 | 
+CPU Core Func 25 | 50h | ok  | 65.2 | Presence detected
+CPU Core Func 26 | 51h | ok  | 65.2 | Presence detected
+CPU Core Func 27 | 52h | ok  | 65.2 | Presence detected
+CPU Core Func 28 | 53h | ok  | 65.2 | Presence detected
+CPU Core Func 29 | 54h | ok  | 65.2 | Presence detected
+CPU Core Func 30 | 55h | ok  | 65.2 | Presence detected
+CPU Core Func 31 | 56h | ok  | 65.2 | Presence detected
+CPU Core Func 32 | 57h | ok  | 65.2 | Presence detected
+CPU Core Func 33 | 58h | ok  | 65.2 | 
+CPU Core Func 34 | 59h | ok  | 65.2 | 
+CPU Core Func 35 | 5Ah | ok  | 65.2 | 
+CPU Core Func 36 | 5Bh | ok  | 65.2 | 
+CPU Core Func 37 | 5Ch | ok  | 65.2 | Presence detected
+CPU Core Func 38 | 5Dh | ok  | 65.2 | Presence detected
+CPU Core Func 39 | 5Eh | ok  | 65.2 | 
+CPU Core Func 40 | 5Fh | ok  | 65.2 | 
+CPU Core Func 41 | 60h | ok  | 65.2 | Presence detected
+CPU Core Func 42 | 61h | ok  | 65.2 | Presence detected
+CPU Core Func 43 | 62h | ok  | 65.2 | Presence detected
+CPU Core Func 44 | 63h | ok  | 65.2 | Presence detected
+CPU Core Func 45 | 64h | ok  | 65.2 | Presence detected
+CPU Core Func 46 | 65h | ok  | 65.2 | Presence detected
+CPU Core Func 47 | 66h | ok  | 65.2 | 
+CPU Core Func 48 | 67h | ok  | 65.2 | 
+P1-DIMMA1 Func   | 10h | ok  | 32.0 | Presence Detected
+P1-DIMMA2 Func   | 11h | ok  | 32.1 | 
+P1-DIMMB1 Func   | 12h | ok  | 32.2 | Presence Detected
+P1-DIMMB2 Func   | 13h | ok  | 32.3 | 
+P1-DIMMC1 Func   | 14h | ok  | 32.4 | Presence Detected
+P1-DIMMC2 Func   | 15h | ok  | 32.5 | 
+P1-DIMMD1 Func   | 16h | ok  | 32.6 | Presence Detected
+P1-DIMMD2 Func   | 17h | ok  | 32.7 | 
+P2-DIMMA1 Func   | 18h | ok  | 32.8 | Presence Detected
+P2-DIMMA2 Func   | 19h | ok  | 32.9 | 
+P2-DIMMB1 Func   | 1Ah | ok  | 32.10 | Presence Detected
+P2-DIMMB2 Func   | 1Bh | ok  | 32.11 | 
+P2-DIMMC1 Func   | 1Ch | ok  | 32.12 | Presence Detected
+P2-DIMMC2 Func   | 1Dh | ok  | 32.13 | 
+P2-DIMMD1 Func   | 1Eh | ok  | 32.14 | Presence Detected
+P2-DIMMD2 Func   | 1Fh | ok  | 32.15 | 
+GPU1 Temp        | A0h | ns  | 11.1 | No Reading
+GPU2 Temp        | A1h | ns  | 11.2 | No Reading
+NVMe_SSD Temp    | E1h | ns  |  0.2 | No Reading
+SAS Temp         | 4Ah | ok  |  0.2 | 58 degrees C
+HDD Temp         | 4Bh | ok  |  0.2 | 22 degrees C
+HDD Status       | 4Ch | ok  |  4.1 | Drive Present
+TPM Required     | 49h | ok  |  3.112 | State Asserted
+Turbo Allowed    | 48h | ok  |  3.112 | State Asserted
+Chassis Intru    | E2h | ok  | 23.1 | 
+Backplane Fault  | 03h | ok  | 13.0 | 
+System Event     | 04h | ok  |  1.0 | 
+Boot Count       | 0Ah | ok  | 34.0 | 
+Boot Progress    | 05h | ok  | 34.0 | Unknown Progress
+PS Derating      | 78h | ok  | 10.0 | 
+PS Redundancy    | 79h | ok  | 10.112 | State Deasserted
+PS1 Status       | F3h | ok  | 10.0 | Presence detected
+PS2 Status       | F4h | ok  | 10.1 | Presence detected
