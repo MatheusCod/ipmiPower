@@ -1,19 +1,5 @@
 Sensor_ID,Sensor_Reading,Sensor_Reading_Unit,Status,Lower_Non_Recoverable,Lower_Critical,Lower_Non_Critical,Upper_Non_Critical,Upper_Critical,Upper_Non_Recoverable,Time_elapsed
-CPU1 Temp,65.1,Temperature,34,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,34,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,34,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,34,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,34,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,34,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,39,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,39,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU1 Temp,65.1,Temperature,39,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
-CPU2 Temp,65.2,Temperature,26,ok,5.000,5.000,10.000,88.000,90.000,92.000,2.000,2.000,,ucr+,ucr+
+CPU1Temp,33.000,degreesC,ok,5.000,5.000,10.000,88.000,90.000,92.000,1.59199
+CPU2Temp,24.000,degreesC,ok,5.000,5.000,10.000,88.000,90.000,92.000,1.59201
+CPU1Temp,33.000,degreesC,ok,5.000,5.000,10.000,88.000,90.000,92.000,3.27168
+CPU2Temp,24.000,degreesC,ok,5.000,5.000,10.000,88.000,90.000,92.000,3.27170

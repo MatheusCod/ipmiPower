@@ -6,17 +6,20 @@ import csv
 duration = sys.argv[1]
 file_name = sys.argv[2]
 sensors = sys.argv[3:]
-time_elapsed = 0
+time_begin = time.time()
 
 #duration = 1
 #file_name = 'test'
 
 with open(file_name + '.csv', 'w') as file_out:
     write = csv.writer(file_out)
-    first_row = ['Sensor_ID', 'Sensor_Reading', 'Sensor_Reading_Unit', 'Status',
+    first_row = ['Sensor_ID', 'Entity_ID', 'Sensor_Type_Threshold_',
+                 'Sensor_Reading', 'Status',
                  'Lower_Non_Recoverable', 'Lower_Critical',
                  'Lower_Non_Critical', 'Upper_Non_Critical', 'Upper_Critical',
-                 'Upper_Non_Recoverable', 'Time_elapsed']
+                 'Upper_Non_Recoverable', 'Positive_Hysteresis',
+                 'Negative_Hysteresis', 'Assertion_Events',
+                 'Assertions_Enabled', 'Deassertions_Enabled', 'Time_elapsed']
     write.writerow(first_row)
     end = time.time() + float(duration)
     while end > time.time():
@@ -39,5 +42,6 @@ with open(file_name + '.csv', 'w') as file_out:
                         current_row.append(output[i][j][0])
                     else:
                         current_row.append('')
+            current_row.append("{:.5f}".format(time.time() - time_begin))
             print(current_row)
             write.writerow(current_row)
