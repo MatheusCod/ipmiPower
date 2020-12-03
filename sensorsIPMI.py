@@ -3,12 +3,13 @@ import subprocess
 import time
 import csv
 
-#duration = sys.argv[1]
-#file_name = sys.argv[2]
+duration = sys.argv[1]
+file_name = sys.argv[2]
+sensors = sys.argv[3:]
 time_elapsed = 0
 
-duration = 1
-file_name = 'test'
+#duration = 1
+#file_name = 'test'
 
 with open(file_name + '.csv', 'w') as file_out:
     write = csv.writer(file_out)
@@ -19,16 +20,24 @@ with open(file_name + '.csv', 'w') as file_out:
     write.writerow(first_row)
     end = time.time() + float(duration)
     while end > time.time():
-        for sensor in sys.argv[3:]:
-            command = ['sudo', 'ipmitool', 'sensor', 'get', sys.argv[i]]
+        for sens in sensors:
+            command = ['sudo', 'ipmitool', 'sensor', 'get', sens]
             process = subprocess.run(
                     command,
                     stdout=subprocess.PIPE,
                     universal_newlines=True)
             output = process.stdout
-            output = output.replace(' ', '').split('\n')
+            output = output.split('\n')[2:-2]
             current_row = []
-            # Instantaneous_power_reading
-            current_row.append(output[1].split(':')[1])
+            current_row.append(sens)
+            for i in range(len(output)):
+                output[i] = output[i].split(':')
+                output[i][0] = output[i][0].replace(' ', '')
+                for j in range(1,len(output[i])):
+                    output[i][j] = output[i][j].split()
+                    if len(output[i][j]) > 0:
+                        current_row.append(output[i][j][0])
+                    else:
+                        current_row.append('')
             print(current_row)
-            #write.writerow(current_row)
+            write.writerow(current_row)
