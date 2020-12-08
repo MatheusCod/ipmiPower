@@ -1,0 +1,170 @@
+CPU1 Temp        | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU2 Temp        | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+System Temp      | 24.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 61.000    | 63.000    | 65.000    
+Peripheral Temp  | 33.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 80.000    | 85.000    | 90.000    
+MB_10G Temp      | 45.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 95.000    | 100.000   | 105.000   
+P1-DIMMA1 Temp   | 30.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P1-DIMMA2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P1-DIMMB1 Temp   | 29.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P1-DIMMB2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P1-DIMMC1 Temp   | 29.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P1-DIMMC2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P1-DIMMD1 Temp   | 29.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P1-DIMMD2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P2-DIMMA1 Temp   | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P2-DIMMA2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P2-DIMMB1 Temp   | 27.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P2-DIMMB2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P2-DIMMC1 Temp   | 27.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P2-DIMMC2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+P2-DIMMD1 Temp   | 31.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 90.000    | 95.000    | 100.000   
+P2-DIMMD2 Temp   | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 1  | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 2  | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 3  | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 4  | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 5  | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 6  | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 7  | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 8  | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 9  | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 10 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 11 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 12 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 13 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 14 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 15 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 16 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 17 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 18 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 19 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 20 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 21 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 22 | 34.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 23 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 24 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 25 | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 26 | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 27 | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 28 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 29 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 30 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 31 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 32 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 33 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 34 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 35 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 36 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 37 | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 38 | 26.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 39 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 40 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 41 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 42 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 43 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 44 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 45 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 46 | 25.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 88.000    | 90.000    | 92.000    
+CPU Core Temp 47 | na         |            | na    | na        | na        | na        | na        | na        | na        
+CPU Core Temp 48 | na         |            | na    | na        | na        | na        | na        | na        | na        
+Freq Limit OT 1  | 0x1        | discrete   | 0x01ff| na        | na        | na        | na        | na        | na        
+Freq Limit Pwr 1 | 0x1        | discrete   | 0x01ff| na        | na        | na        | na        | na        | na        
+Mem Thrttl OT 1  | 0x1        | discrete   | 0x01ff| na        | na        | na        | na        | na        | na        
+Freq Limit OT 2  | 0x1        | discrete   | 0x01ff| na        | na        | na        | na        | na        | na        
+Freq Limit Pwr 2 | 0x1        | discrete   | 0x01ff| na        | na        | na        | na        | na        | na        
+Mem Thrttl OT 2  | 0x1        | discrete   | 0x01ff| na        | na        | na        | na        | na        | na        
+VBAT             | 3.168      | Volts      | ok    | 2.400     | 2.448     | 2.640     | 3.456     | 3.648     | 3.696     
+FAN2             | 4500.000   | RPM        | ok    | 300.000   | 500.000   | 700.000   | 25300.000 | 25400.000 | 25500.000 
+FAN3             | 4500.000   | RPM        | ok    | 300.000   | 500.000   | 700.000   | 25300.000 | 25400.000 | 25500.000 
+FAN6             | 7400.000   | RPM        | ok    | 300.000   | 500.000   | 700.000   | 25300.000 | 25400.000 | 25500.000 
+FAN7             | 7400.000   | RPM        | ok    | 300.000   | 500.000   | 700.000   | 25300.000 | 25400.000 | 25500.000 
+Total Power      | 224.000    | Watts      | ok    | 0.000     | 0.000     | 0.000     | 1785.000  | 1785.000  | 1785.000  
+CPU1 Power       | 11.000     | Watts      | ok    | 0.000     | 0.000     | 0.000     | 255.000   | 255.000   | 255.000   
+CPU2 Power       | 11.000     | Watts      | ok    | 0.000     | 0.000     | 0.000     | 255.000   | 255.000   | 255.000   
+PCIE CPU1 Pwr    | 25.000     | Watts      | ok    | 0.000     | 0.000     | 0.000     | 255.000   | 255.000   | 255.000   
+PCIE CPU2 Pwr    | 25.000     | Watts      | ok    | 0.000     | 0.000     | 0.000     | 255.000   | 255.000   | 255.000   
+OCC Active 1     | 0x2        | discrete   | 0x0200| na        | na        | na        | na        | na        | na        
+OCC Active 2     | 0x2        | discrete   | 0x0200| na        | na        | na        | na        | na        | na        
+CPU Func 1       | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Func 2       | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 1  | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 2  | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 3  | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 4  | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 5  | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 6  | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 7  | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 8  | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 9  | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 10 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 11 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 12 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 13 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 14 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 15 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 16 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 17 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 18 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 19 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 20 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 21 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 22 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 23 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 24 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 25 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 26 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 27 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 28 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 29 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 30 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 31 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 32 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 33 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 34 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 35 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 36 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 37 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 38 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 39 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 40 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 41 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 42 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 43 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 44 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 45 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 46 | 0x80       | discrete   | 0x8000| na        | na        | na        | na        | na        | na        
+CPU Core Func 47 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+CPU Core Func 48 | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P1-DIMMA1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P1-DIMMA2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P1-DIMMB1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P1-DIMMB2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P1-DIMMC1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P1-DIMMC2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P1-DIMMD1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P1-DIMMD2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P2-DIMMA1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P2-DIMMA2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P2-DIMMB1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P2-DIMMB2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P2-DIMMC1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P2-DIMMC2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+P2-DIMMD1 Func   | 0x40       | discrete   | 0x4000| na        | na        | na        | na        | na        | na        
+P2-DIMMD2 Func   | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+GPU1 Temp        | na         |            | na    | na        | na        | na        | na        | na        | na        
+GPU2 Temp        | na         |            | na    | na        | na        | na        | na        | na        | na        
+NVMe_SSD Temp    | na         |            | na    | na        | na        | na        | na        | na        | na        
+SAS Temp         | 61.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 100.000   | 105.000   | 110.000   
+HDD Temp         | 24.000     | degrees C  | ok    | 5.000     | 5.000     | 10.000    | 60.000    | 65.000    | 70.000    
+HDD Status       | 0x1        | discrete   | 0x0100| na        | na        | na        | na        | na        | na        
+TPM Required     | 0x2        | discrete   | 0x0200| na        | na        | na        | na        | na        | na        
+Turbo Allowed    | 0x2        | discrete   | 0x0200| na        | na        | na        | na        | na        | na        
+Chassis Intru    | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+Backplane Fault  | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+System Event     | 0x0        | discrete   | 0x0000| na        | na        | na        | na        | na        | na        
+Boot Count       | 0x2        | discrete   | 0x0200| na        | na        | na        | na        | na        | na        
+Boot Progress    | 0x4        | discrete   | 0x0400| na        | na        | na        | na        | na        | na        
+PS Derating      | 0x5a       | discrete   | 0x5a00| na        | na        | na        | na        | na        | na        
+PS Redundancy    | 0x1        | discrete   | 0x0100| na        | na        | na        | na        | na        | na        
+PS1 Status       | 0x1        | discrete   | 0x0100| na        | na        | na        | na        | na        | na        
+PS2 Status       | 0x1        | discrete   | 0x0100| na        | na        | na        | na        | na        | na        
