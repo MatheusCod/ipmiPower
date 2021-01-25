@@ -47,7 +47,7 @@ i = 0
 while i < 1002:
   
   # Get sensor value from ipmi
-  sens = 'Total\n Power'
+  sens = 'Total Power'
   command = ['sudo', 'ipmitool', 'sensor', 'get', sens]
   process = subprocess.run(
           command,
