@@ -21,11 +21,11 @@ conn.commit()
 class saveDB(threading.Thread):
   def __init__(self):
     threading.Thread.__init__(self)
-  def run(self, buffers, threadID):
+  def run(self, single_buffer, threadID):
     print("ThreadID:" + str(threadID))
     conn = sql.connect('ipmi_data.db')
     c = conn.cursor()
-    for inst in buffers:
+    for inst in single_buffer:
       newRow = " " + "(" + "\'" + str(inst[0].replace('\n', '\\n')) + "\'" + "," + str(inst[1]) + ")"
       newRow = "INSERT INTO SensorData VALUES" + newRow
       c.execute(newRow)
@@ -44,7 +44,7 @@ thread = saveDB()
 # the first one is being saved on the database
 bufferNumber = 0
 i = 0
-while i < 1002:
+while i < 22:
   
   # Get sensor value from ipmi
   sens = 'Total Power'
@@ -60,7 +60,7 @@ while i < 1002:
   buffers[bufferNumber].append([output, time.time()])
   
   # Checks if the current buffer is full
-  if len(buffers[bufferNumber]) > 500:
+  if len(buffers[bufferNumber]) > 5:
     thread.run(buffers[bufferNumber], bufferNumber)
     buffers[bufferNumber] = []
     if bufferNumber == 0:
@@ -69,6 +69,25 @@ while i < 1002:
       bufferNumber = 0
   i += 1
 
+if len(buffers[0]) > 0:
+  conn = sql.connect('ipmi_data.db')
+  c = conn.cursor()
+  for inst in buffers[0]:
+    newRow = " " + "(" + "\'" + str(inst[0].replace('\n', '\\n')) + "\'" + "," + str(inst[1]) + ")"
+    newRow = "INSERT INTO SensorData VALUES" + newRow
+    c.execute(newRow)
+  conn.commit()
+  conn.close()
+elif len(buffers[1]) > 0:
+  conn = sql.connect('ipmi_data.db')
+  c = conn.cursor()
+  for inst in buffers[1]:
+    newRow = " " + "(" + "\'" + str(inst[0].replace('\n', '\\n')) + "\'" + "," + str(inst[1]) + ")"
+    newRow = "INSERT INTO SensorData VALUES" + newRow
+    c.execute(newRow)
+  conn.commit()
+  conn.close()
+  
 # Print database rows
 #conn = sql.connect('ipmi_data.db')
 #c = conn.cursor()
