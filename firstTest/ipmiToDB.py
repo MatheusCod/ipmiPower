@@ -69,6 +69,7 @@ while i < 22:
       bufferNumber = 0
   i += 1
 
+# At the end of process, saves the data remaining in one of the buffers.
 if len(buffers[0]) > 0:
   conn = sql.connect('ipmi_data.db')
   c = conn.cursor()
