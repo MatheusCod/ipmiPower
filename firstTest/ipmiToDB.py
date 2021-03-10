@@ -61,7 +61,8 @@ while i < 22:
   
   # Checks if the current buffer is full
   if len(buffers[bufferNumber]) > 5:
-    thread.run(buffers[bufferNumber], bufferNumber)
+    thread.start(buffers[bufferNumber], bufferNumber)
+    #thread.run(buffers[bufferNumber], bufferNumber)
     buffers[bufferNumber] = []
     if bufferNumber == 0:
       bufferNumber = 1
