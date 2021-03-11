@@ -69,7 +69,7 @@ def start():
 
       # Checks if the current buffer is full
       if len(buffers[bufferNumber]) > 50:
-        thread.start(buffers[bufferNumber], bufferNumber)
+        #thread.start(buffers[bufferNumber], bufferNumber)
         #thread.run(buffers[bufferNumber], bufferNumber)
         #buffers[bufferNumber] = []
         thread = threading.Thread(target=saveDB, args=(buffers[bufferNumber], bufferNumber,))
