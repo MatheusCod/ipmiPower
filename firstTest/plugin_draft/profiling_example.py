@@ -12,7 +12,7 @@
 # limitations under the License.
 
 from datetime import datetime
-from packaging import version
+#from packaging import version
 
 import os
 
