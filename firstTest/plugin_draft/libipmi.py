@@ -109,6 +109,7 @@ def start():
 def dbToCSV():
     conn = sql.connect('ipmi_data.db')
     c = conn.cursor()
+    sens = 'Total Power'
     with open('ipmi_data' + '.csv', 'w') as file_out:
         write = csv.writer(file_out)
         first_row = ['Sensor_ID', 'Entity_ID', 'Sensor_Type_Threshold_',
