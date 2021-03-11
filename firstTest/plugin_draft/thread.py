@@ -112,21 +112,21 @@ def dbToCSV():
                      'Upper_Non_Recoverable', 'Positive_Hysteresis',
                      'Negative_Hysteresis', 'Assertion_Events',
                      'Assertions_Enabled', 'Deassertions_Enabled', 'Time_elapsed']
-         write.writerow(first_row)
-         for output in c.execute("SELECT * FROM SensorData"):
-             output = output.replace('\\n', '\n')
-             output = output.split('\n')[2:-2]
-             current_row = []
-             current_row.append(sens)
-             for i in range(len(output)):
-                 output[i] = output[i].split(':')
-                 output[i][0] = output[i][0].replace(' ', '')
-                 for j in range(1,len(output[i])):
-                     output[i][j] = output[i][j].split()
-                     if len(output[i][j]) > 0:
-                         current_row.append(output[i][j][0])
-                     else:
-                         current_row.append('')
+        write.writerow(first_row)
+        for output in c.execute("SELECT * FROM SensorData"):
+            output = output.replace('\\n', '\n')
+            output = output.split('\n')[2:-2]
+            current_row = []
+            current_row.append(sens)
+            for i in range(len(output)):
+                output[i] = output[i].split(':')
+                output[i][0] = output[i][0].replace(' ', '')
+                for j in range(1,len(output[i])):
+                    output[i][j] = output[i][j].split()
+                    if len(output[i][j]) > 0:
+                        current_row.append(output[i][j][0])
+                    else:
+                        current_row.append('')
                 current_row.append("{:.5f}".format(time.time() - time_begin))
                 #print(current_row)
                 write.writerow(current_row)
