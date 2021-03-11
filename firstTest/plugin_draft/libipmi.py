@@ -23,7 +23,7 @@ def saveDB(single_buffer, threadID):
     conn.commit()
     conn.close()
 
-def start():
+def mainThread():
     global glob_var
     global thread_list
 
@@ -101,6 +101,10 @@ def start():
         c.execute(newRow)
       conn.commit()
       conn.close()
+
+def start():
+    main_thread = threading.Thread(target=saveDB)
+    main_thread.start()
 
 def dbToCSV():
     conn = sql.connect('ipmi_data.db')
