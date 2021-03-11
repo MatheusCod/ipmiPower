@@ -18,6 +18,7 @@ import os
 
 #####################################################################
 import libipmi
+import time
 #####################################################################
 
 #!pip install -U tensorboard_plugin_profile
@@ -75,7 +76,7 @@ tboard_callback = tf.keras.callbacks.TensorBoard(log_dir = logs,
                                                  profile_batch = '500,520')
 
 #####################################################################
-libipmi.start()
+libipmi.start(time.time())
 #####################################################################
 
 model.fit(ds_train,
