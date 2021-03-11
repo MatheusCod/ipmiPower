@@ -120,6 +120,7 @@ def dbToCSV():
                      'Assertions_Enabled', 'Deassertions_Enabled', 'Time_elapsed']
         write.writerow(first_row)
         for output in c.execute("SELECT * FROM SensorData"):
+            output = str(output)
             output = output.replace('\\n', '\n')
             output = output.split('\n')[2:-2]
             current_row = []
