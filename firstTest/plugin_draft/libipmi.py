@@ -5,10 +5,11 @@ import time
 import csv
 import os
 
-glob_var = True;
+time_start = 0
+glob_var = True
 thread_list = []
 
-def stop():
+def stop(time_received):
     global glob_var
     glob_var = False
 
@@ -65,7 +66,7 @@ def mainThread():
       output = output.replace('\n', '\\n')
 
       # Append on buffer
-      buffers[bufferNumber].append([output, time.time()])
+      buffers[bufferNumber].append([output, time.time() - time_start])
 
       # Checks if the current buffer is full
       if len(buffers[bufferNumber]) > 50:
@@ -102,7 +103,9 @@ def mainThread():
       conn.commit()
       conn.close()
 
-def start():
+def start(time_received):
+    global time_start
+    time_start = time_received
     main_thread = threading.Thread(target=mainThread)
     main_thread.start()
 
@@ -120,8 +123,9 @@ def dbToCSV():
                      'Negative_Hysteresis', 'Assertion_Events',
                      'Assertions_Enabled', 'Deassertions_Enabled', 'Time_elapsed']
         write.writerow(first_row)
-        for output in c.execute("SELECT * FROM SensorData"):
-            output = str(output)
+        for db_row in c.execute("SELECT * FROM SensorData"):
+            output = str(db_row[0])
+            read_time_value = float(db_row[1])
             output = output.replace('\\n', '\n')
             output = output.split('\n')[2:-2]
             current_row = []
@@ -135,6 +139,6 @@ def dbToCSV():
                         current_row.append(output[i][j][0])
                     else:
                         current_row.append('')
-                current_row.append("{:.5f}".format(time.time() - time_begin))
+                current_row.append("{:.5f}".format(read_time_value))
                 #print(current_row)
                 write.writerow(current_row)
