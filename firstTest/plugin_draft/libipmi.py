@@ -9,7 +9,7 @@ time_start = 0
 glob_var = True
 thread_list = []
 
-def stop(time_received):
+def stop():
     global glob_var
     glob_var = False
 
@@ -103,9 +103,16 @@ def mainThread():
       conn.commit()
       conn.close()
 
-def start(time_received):
+def start():
+    command = ['sudo', 'echo']
+    process = subprocess.run(
+            command,
+            stdout=subprocess.PIPE,
+            universal_newlines=True)
+
     global time_start
     time_start = time_received
+
     main_thread = threading.Thread(target=mainThread)
     main_thread.start()
 
