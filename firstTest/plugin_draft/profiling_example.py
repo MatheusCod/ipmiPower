@@ -24,6 +24,11 @@ import libipmi
 
 import tensorflow as tf
 
+#!pip install tensorflow-datasets
+
+import tensorflow_datasets as tfds
+tfds.disable_progress_bar()
+
 print("TensorFlow version: ", tf.__version__)
 
 """
@@ -44,9 +49,6 @@ print('Found GPU at: {}'.format(device_name))
 def normalize_img(image, label):
   """Normalizes images: `uint8` -> `float32`."""
   return tf.cast(image, tf.float32) / 255., label
-
-import tensorflow_datasets as tfds
-tfds.disable_progress_bar()
 
 ds_train = ds_train.map(normalize_img)
 ds_train = ds_train.batch(128)
