@@ -148,4 +148,4 @@ def dbToCSV():
                         current_row.append('')
                 current_row.append("{:.5f}".format(read_time_value))
                 #print(current_row)
-                write.writerow(current_row)
+            write.writerow(current_row)
