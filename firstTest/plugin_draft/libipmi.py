@@ -69,7 +69,7 @@ def mainThread():
       buffers[bufferNumber].append([output, time.time() - time_start])
 
       # Checks if the current buffer is full
-      if len(buffers[bufferNumber]) > 50:
+      if len(buffers[bufferNumber]) > 10:
         #thread.start(buffers[bufferNumber], bufferNumber)
         #thread.run(buffers[bufferNumber], bufferNumber)
         #buffers[bufferNumber] = []
