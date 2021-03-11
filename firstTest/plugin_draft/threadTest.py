@@ -6,25 +6,20 @@ def abc():
     global glob_var
     glob_var = 5
 
-def thr():
-    # Class for threading
-    class saveDB(threading.Thread):
-      def __init__(self):
-        threading.Thread.__init__(self)
-      def run(self):
-        global glob_var
+def th_while(aux):
+    aux = aux + 10
+    global glob_var
+    print(glob_var)
+    while (True):
         print(glob_var)
-        while (True):
-            print(glob_var)
-            if (glob_var >= 9999999):
-                break
+        if (glob_var >= 9999999):
+            break
 
-    # Create thread
-    thread = saveDB()
-    thread.start()
-
+thread_list = []
 def main():
-    thr()
+    thread = threading.Thread(target=th_while, args=(5,))
+    thread_list.append(thread)
+    thread.start()
     global glob_var
     print("123")
     print(glob_var)
@@ -35,4 +30,4 @@ def main():
             print(glob_var)
             break
 
-    print("Agora sim")    
+    print("Agora sim")

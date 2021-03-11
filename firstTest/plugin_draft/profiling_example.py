@@ -17,7 +17,7 @@ from packaging import version
 import os
 
 #####################################################################
-import thread
+import libipmi
 #####################################################################
 
 #!pip install -U tensorboard_plugin_profile
@@ -45,6 +45,9 @@ def normalize_img(image, label):
   """Normalizes images: `uint8` -> `float32`."""
   return tf.cast(image, tf.float32) / 255., label
 
+import tensorflow_datasets as tfds
+tfds.disable_progress_bar()
+
 ds_train = ds_train.map(normalize_img)
 ds_train = ds_train.batch(128)
 
@@ -70,7 +73,7 @@ tboard_callback = tf.keras.callbacks.TensorBoard(log_dir = logs,
                                                  profile_batch = '500,520')
 
 #####################################################################
-thread.start()
+libipmi.start()
 #####################################################################
 
 model.fit(ds_train,
@@ -79,5 +82,5 @@ model.fit(ds_train,
           callbacks = [tboard_callback])
 
 #####################################################################
-thread.stop()
+libipmi.stop()
 #####################################################################
