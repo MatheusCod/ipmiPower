@@ -103,7 +103,7 @@ def mainThread():
       conn.close()
 
 def start():
-    main_thread = threading.Thread(target=saveDB)
+    main_thread = threading.Thread(target=mainThread)
     main_thread.start()
 
 def dbToCSV():
