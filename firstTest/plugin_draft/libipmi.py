@@ -111,7 +111,7 @@ def start():
             universal_newlines=True)
 
     global time_start
-    time_start = time_received
+    time_start = time.time()
 
     main_thread = threading.Thread(target=mainThread)
     main_thread.start()
