@@ -13,7 +13,7 @@ def stop():
 
 # Class for threading
 def saveDB(single_buffer, threadID):
-    print("ThreadID:" + str(threadID))
+    print("\n" + "ThreadID:" + str(threadID) + "\n")
     conn = sql.connect('ipmi_data.db')
     c = conn.cursor()
     for inst in single_buffer:
@@ -53,7 +53,6 @@ def mainThread():
     bufferNumber = 0
     i = 0
     while (glob_var):
-
       # Get sensor value from ipmi
       sens = 'Total Power'
       command = ['sudo', 'ipmitool', 'sensor', 'get', sens]
