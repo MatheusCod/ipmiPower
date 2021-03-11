@@ -80,7 +80,7 @@ libipmi.start(time.time())
 #####################################################################
 
 model.fit(ds_train,
-          epochs=25,
+          epochs=10,
           validation_data=ds_test,
           callbacks = [tboard_callback])
 
