@@ -2,6 +2,7 @@ import threading
 import sqlite3 as sql
 import subprocess
 import time
+import csv
 import os
 
 glob_var = True;
